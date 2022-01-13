@@ -28,7 +28,7 @@ section {
     margin: 0em;
 }
 
-#header_name {
+.header_name {
     font-size: 3em;
     font-weight: 100;
     letter-spacing: .6em;
@@ -36,14 +36,14 @@ section {
     padding-bottom: 0.3em;
     margin: 0.1em auto;
 }
-#header_title {
+.header_title {
     font-size: 1.1em;
     font-weight: 500;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
     margin: 0em auto;
 }
-#header_border {
+.header_border {
     border: none;
     background-color: darkgray;
     height: 1px;
@@ -51,14 +51,14 @@ section {
     margin-bottom: 0.3em;
 }
 
-#section_title {
+.section_title {
     font-size: 1.5em;
     font-weight: 500;
     padding-top: 0em;
     padding-bottom: 0em;
     margin: 0em auto;
 }
-#section_border {
+.section_border {
     border: none;
     background-color: lightgray;
     height: 1px;
@@ -66,21 +66,21 @@ section {
     margin-bottom: 0.5em;
 }
 
-#name {
+.name {
     font-size: 1.25em;
     font-weight: 500;
     padding-top: 0em;
     padding-bottom: 0.2em;
     margin: 0em auto;
 }
-#title {
+.title {
     font-size: 1em;
     font-weight: 500;
     padding-top: 0em;
     padding-bottom: 0em;
     margin: 0em auto;
 }
-#description {
+.description {
     font-size: 1em;
     font-weight: 400;
     padding-top: 0em;
@@ -88,7 +88,7 @@ section {
     margin: 0.2em auto;
 }
 
-#tab1 {
+.tab1 {
     padding-left: 1em;
 }
 
