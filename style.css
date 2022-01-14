@@ -106,3 +106,41 @@ a {
 .cell.icon.t2 { 
     padding: 0 0.5em 0 2.5em;
 }
+
+.divTable{
+	display: table;
+	width: 100%;
+    margin: 0 0 0.1em 0;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableRow {
+	display: table-row;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.divTableRow.border {
+    border-bottom: 1px solid lightgray;
+}
+.divTableCell {
+	display: table-cell;
+    padding: 0.1em 0 0.1em 0;
+}
+.divTableCell.right { 
+    text-align: right; 
+}
+.divTableCell.left { 
+    text-align: left;
+}
+.divTableCell.icon { 
+    text-align: center;
+    width: 0;
+    padding: 0 0.5em 0 0;
+}
+.divTableCell.icon.t1 { 
+    padding: 0 0.5em 0 0.5em;
+}
+.divTableCell.icon.t2 { 
+    padding: 0 0.5em 0 2.5em;
+}
