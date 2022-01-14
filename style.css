@@ -6,15 +6,15 @@ body {
 }
 header {
     text-align: center;
-    margin: 0em 2em 0em 2em;
+    margin: 0 2em 0 2em;
 }
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
-    margin: 1em 0em 0em 0em;
+    margin: 1em 0 0 0;
 }
 section {
-    margin: 0em 2em 0.5em 2em;
+    margin: 0 2em 0.5em 2em;
 }
 a {
     color: black;
@@ -22,7 +22,7 @@ a {
 }
 
 .column {
-    margin: 0em 0em 0em 0em;
+    margin: 0 0 0 0;
 }
 .column.left {
     border-right: 1px solid lightgray;
@@ -32,63 +32,62 @@ a {
     font-size: 3em;
     font-weight: 100;
     letter-spacing: .6em;
-    margin: 0.3em 0em 0.3em 0em;
-    padding: 0.3em 0em 0.3em 0em;
+    margin: 0.3em 0 0.3em 0;
+    padding: 0.3em 0 0.3em 0;
 }
 
 .title {
     font-size: 1.2em;
     font-weight: 500;
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .title.header {
     font-size: 1.2em;
-    padding: 0.3em 0em 0.3em 0em;
+    padding: 0.3em 0 0.3em 0;
     background-color: black;
     color:white;
 }
 .title.sub0 {
     font-size: 1.2em;
-    margin: 0em 0em 0.3em 0em;
-    padding: 0em 0em 0.1em 0.5em;
+    margin: 0 0 0.3em 0;
+    padding: 0 0 0.1em 0.5em;
     background-color: lightgray;
 }
 .title.sub1 {
     font-size: 1.1em;
-    margin: 0em 0em 0.1em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0 0 0.1em 0;
+    padding: 0 0 0 0;
     border-bottom: 1px solid lightgray;
 }
 .title.sub3 {
     font-size: 1em;
-    margin: 0em 0em 0.1em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0 0 0.1em 0;
+    padding: 0 0 0 0;
 }
 
 .description {
     font-size: 1em;
     font-weight: 400;
-    margin: 0.3em 0em 0.3em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0.3em 0 0.3em 0;
+    padding: 0 0 0 0;
 }
 
 .tbl { 
     width: 100%;
-    margin: 0em 0em 0.1em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0 0 0.1em 0;
     border-collapse: collapse;
 }
 .row {
-    margin: 0em 0em 0em 0em;
-    padding: 0em 0em 0em 0em;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .row.border {
     border-bottom: 1px solid lightgray;
 }
 .cell {
-    margin: 0em 0em 0em 0em;
-    padding: 0.1em 0em 0.1em 0em;
+    margin: 0 0 0 0;
+    padding: 0.1em 0 0.1em 0;
 }
 .cell.right { 
     text-align: right; 
@@ -99,11 +98,11 @@ a {
 .cell.icon { 
     text-align: center;
     width: 0;
-    padding: 0em 0.5em 0em 0em;
+    padding: 0 0.5em 0 0;
 }
 .cell.icon.t1 { 
-    padding: 0em 0.5em 0em 0.5em;
+    padding: 0 0.5em 0 0.5em;
 }
 .cell.icon.t2 { 
-    padding: 0em 0.5em 0em 2.5em;
+    padding: 0 0.5em 0 2.5em;
 }
